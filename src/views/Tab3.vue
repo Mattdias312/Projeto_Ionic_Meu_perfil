@@ -59,7 +59,7 @@ export default  {
     });
 
     function saveData(){
-      axios.put(`https://app-perfil-7f3c8-default-rtdb.firebaseio.com/.json`,{
+      axios.put(`https://banco-3a151-default-rtdb.firebaseio.com/user.json`,{
         user: {
           ...user.value,
         },
